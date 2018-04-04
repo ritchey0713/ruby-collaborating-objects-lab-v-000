@@ -13,7 +13,6 @@ class MP3Importer
     
   end
   
-  def import
     def import
     # binding.pry
     self.files.each do |file|
