@@ -20,6 +20,7 @@ class MP3Importer
       song = Song.new_by_filename(file)
       Artist.all << song.artist unless Artist.all.include?(song.artist)
 end
+end
     
 
 
